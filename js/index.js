@@ -2,7 +2,7 @@
 const friends = ["Mango", "Poly", "Kiwi", "Ajax"];
 let string = "";
 //For
-for (let i = 0; i <= friends.length; i++) {
+for (let i = 0; i < friends.length; i++) {
   string += friends[i];
   string += ",";
 }
